@@ -4,4 +4,8 @@
   tasks:
   - name: Display node name passed from Solarwinds
     debug:
+      var: testvar
+  - name: Display node name passed from Solarwinds
+    debug:
       var: node_name
+
