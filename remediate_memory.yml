@@ -1,0 +1,7 @@
+---
+- name: Resolve memory issue
+  hosts: localhost
+  tasks:
+  - name: Display node name passed from Solarwinds
+    debug:
+      var: node_name
